@@ -1,0 +1,97 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018-4-24, 19:28:34
+    Author     : fenglin
+*/
+
+#footer li {
+  height: 27px;
+  display: inline-block;
+}
+html,body{
+    text-align: center;
+     background-image: url('be.png');
+    
+}
+.header {
+    /*background-color:white;*/
+    /*color:white;*/
+    /*text-align:center;*/
+    padding:5px;
+/*    width: 300px;*/
+    
+    height: 150px;
+
+    
+}
+.headerLeft{
+    float: left;
+    margin-left: 5%;
+/*    margin-top: 10%;
+    margin-left:10%;*/
+/*    padding-right: 30%;*/
+/*    bottom: 0%;*/
+    
+}
+
+.headerRight{
+    
+    margin-top: 2%;
+    margin-left: 65%;
+/*    margin-right: 30%;
+    margin-bottom: 10%;*/
+}
+.middle {
+/*    line-height:30px;*/
+    background-image: url('be.png');
+/*    height:100%;
+    width:100%;
+    float:left;
+    padding:5px;*/
+
+      width: 600px;
+            height: 300px;
+            position: absolute;
+            top:40%;
+            left:50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+
+}
+.middleLeft {
+    border-radius: 10px;
+            width:50%;
+            float: left;
+            /*height:700px;*/
+            /*background-color: #f37a5a;*/
+            text-align: center;
+	 	 
+}
+.middleRight {
+    	border-radius: 10px;
+            width:50%;
+            float: left;
+            /*height:700px;*/
+            background-color: #f37a5a;
+            text-align: center;
+ 
+}
+.button1
+{
+    background-color:steelblue;
+    border-radius: 8px;/* 圆度*/  
+    
+}
+.emp_middle
+{
+            background-color: red;
+            position: absolute;
+            top:40%;
+            left:50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+}
